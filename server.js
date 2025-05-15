@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema({
 });
 
 const User = mongoose.model('User', userSchema);
-
+console.log("hello");
 
 // public folder
 
